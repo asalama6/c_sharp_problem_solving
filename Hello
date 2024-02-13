@@ -1,0 +1,29 @@
+using System;
+internal class Program
+{
+    public static void Main(string[] args)
+    {
+                /*
+        You will take a string, all you have to do print -> hello ("string")
+        Example
+        you will be given "Mohamed"
+        you will print "hello mohamed"
+        Input
+        Only one line containing a string S.
+        Output
+        print hello ("name")
+        Examples
+        inputC
+        mohamed
+        output
+        hello mohamed      
+                */
+
+
+        #region problem Solving
+        string name =Console.ReadLine();
+        Console.WriteLine($"hello {name}");
+        
+        #endregion
+    }
+} 
