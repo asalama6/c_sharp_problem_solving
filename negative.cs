@@ -40,9 +40,16 @@ internal class Program
         int[]Numbers= new int[3] {num1,num2,num3};
         Array.Sort(Numbers);
         if (Numbers[2]<0)
+        { 
             Console.WriteLine(Numbers[2]);
-        if (Numbers[1]<0)
+            
+        }
+        
+        else if (Numbers[1] < 0)
+        {
             Console.WriteLine(Numbers[1]);
+        }
+        else
         Console.WriteLine(Numbers[0]);
 
     }
