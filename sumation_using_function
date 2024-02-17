@@ -1,0 +1,21 @@
+
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        //Console.WriteLine("inter two numbers");
+        String input = Console.ReadLine();
+        string[] numbers = input.Split();
+        int num1 = Convert.ToInt32(numbers[0]);
+        int num2 = Convert.ToInt32(numbers[1]);
+        sumation(num1, num2);
+ 
+    }
+    public static void sumation (int x,int y)
+    {
+       
+        Console.WriteLine(x+y);
+ 
+    }
+ 
+}
