@@ -1,0 +1,20 @@
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        //Console.WriteLine("inter two numbers");
+        String input = Console.ReadLine();
+        string[] numbers = input.Split();
+        int num1 = Convert.ToInt32(numbers[0]);
+        //int num2 = Convert.ToInt32(numbers[1]);
+        print_to_N(num1);
+
+    }
+    public static void print_to_N (int x)
+    {
+       for (int i =1 ;i<x; i++)
+            Console.Write($"{i} ");
+        Console.WriteLine(x);
+    }
+
+}
